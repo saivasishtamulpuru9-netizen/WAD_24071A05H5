@@ -1,0 +1,14 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>MembershipServlet</servlet-name>
+        <servlet-class>MembershipServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MembershipServlet</servlet-name>
+        <url-pattern>/membership</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
